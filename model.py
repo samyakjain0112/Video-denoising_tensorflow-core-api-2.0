@@ -181,8 +181,8 @@ class model():
         
         conv_1_output_encoder=self.conv_encoder(input_1)
         
-        return conv_1_output_encoder
-        '''  
+        #return conv_1_output_encoder
+        
             
         conv_2_output_encoder=self.conv_encoder(input_2)
         
@@ -265,7 +265,7 @@ class model():
             # functions used are conv_encoder , concat , autoencoder , conv_decoder , concat_decoder_ref , conv_encoder22 , conv_encoder21 , concat_decoder_final , autoencoder_final , autoencoder_decoder  
     
             # I have kept the weights of some layers same
-         '''
+         
     @tf.function
     def conv_encoder(self,x):
         
