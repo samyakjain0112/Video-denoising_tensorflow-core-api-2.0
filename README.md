@@ -1,5 +1,5 @@
 # Video-denoising_tensorflow-core-api 2.0
-#### 1) Inspired from the Transformer Network used in the paper(attention is all you need by vaswani et al) 'https://arxiv.org/pdf/1907.01361.pdf'  and U-Net for video denoising used in the paper (Fast DVD-Net) 'https://arxiv.org/pdf/1907.01361.pdf'
+#### 1) Inspired from the Transformer Network used in the paper(attention is all you need by vaswani et al) https://arxiv.org/pdf/1706.03762.pdf  and U-Net for video denoising used in the paper (Fast DVD-Net) 'https://arxiv.org/pdf/1907.01361.pdf'
 #### 2) Using the similiar architecture as in attention is all you need the model broadly consists of an ENCODER and a DECODER.
 #### 3) The encoder part of the model inputs five noisy video frames that is [t-2,t-1,t,t+1,t+2] where t is the nosiy frame which we aim to denoise
 #### 4) The decoder part of the model inputs two previous ground truth denoised reference frames that are[T-2,T-1] and the aim of the entire model is to predict the Tth frame. 
